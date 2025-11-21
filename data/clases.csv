@@ -1,0 +1,422 @@
+id_clase,codigo_curso,nombre_clase,nro_clase_semana,salon,dia_semana,horario_inicio,horario_fin,campus,max_estudiantes
+HU625-SEC1-2025S2,HU625,Comprensión y Producción de Lenguaje I,1,A-215,Viernes,8:00,10:00,San Isidro,30
+HU625-SEC2-2025S2,HU625,Comprensión y Producción de Lenguaje I,1,A-716,Martes,18:00,20:00,San Isidro,40
+HU625-SEC3-2025S2,HU625,Comprensión y Producción de Lenguaje I,1,B-213,Martes,14:00,16:00,San Isidro,30
+HU625-SEC4-2025S2,HU625,Comprensión y Producción de Lenguaje I,1,B-701,Miércoles,16:00,18:00,San Isidro,40
+HU625-SEC5-2025S2,HU625,Comprensión y Producción de Lenguaje I,1,A-212,Lunes,16:00,18:00,San Isidro,30
+HU625-SEC6-2025S2,HU625,Comprensión y Producción de Lenguaje I,1,A-711,Martes,12:00,14:00,San Isidro,40
+HU625-SEC7-2025S2,HU625,Comprensión y Producción de Lenguaje I,1,A-701,Jueves,12:00,14:00,San Isidro,40
+HU625-SEC8-2025S2,HU625,Comprensión y Producción de Lenguaje I,1,B-206,Martes,12:00,14:00,San Isidro,30
+HU625-SEC9-2025S2,HU625,Comprensión y Producción de Lenguaje I,1,B-711,Miércoles,10:00,12:00,San Isidro,40
+HU625-SEC10-2025S2,HU625,Comprensión y Producción de Lenguaje I,1,A-209,Lunes,14:00,16:00,San Isidro,30
+HU626-SEC1-2025S2,HU626,Comprensión y Producción de Lenguaje II,1,B-708,Martes,10:00,12:00,San Isidro,40
+HU626-SEC2-2025S2,HU626,Comprensión y Producción de Lenguaje II,1,B-706,Martes,12:00,14:00,San Isidro,40
+HU626-SEC3-2025S2,HU626,Comprensión y Producción de Lenguaje II,1,B-705,Lunes,14:00,16:00,San Isidro,40
+HU626-SEC4-2025S2,HU626,Comprensión y Producción de Lenguaje II,1,A-209,Viernes,18:00,20:00,San Isidro,30
+HU626-SEC5-2025S2,HU626,Comprensión y Producción de Lenguaje II,1,B-209,Jueves,18:00,20:00,San Isidro,30
+HU626-SEC6-2025S2,HU626,Comprensión y Producción de Lenguaje II,1,A-704,Jueves,10:00,12:00,San Isidro,40
+HU626-SEC7-2025S2,HU626,Comprensión y Producción de Lenguaje II,1,A-709,Lunes,8:00,10:00,San Isidro,40
+HU626-SEC8-2025S2,HU626,Comprensión y Producción de Lenguaje II,1,B-209,Lunes,10:00,12:00,San Isidro,30
+HU626-SEC9-2025S2,HU626,Comprensión y Producción de Lenguaje II,1,B-205,Jueves,16:00,18:00,San Isidro,30
+HU626-SEC10-2025S2,HU626,Comprensión y Producción de Lenguaje II,1,A-716,Viernes,8:00,10:00,San Isidro,40
+MA431-SEC1-2025S2,MA431,Matemática Básica,1,B-710,Martes,10:00,12:00,San Isidro,40
+MA431-SEC2-2025S2,MA431,Matemática Básica,1,B-211,Viernes,12:00,14:00,San Isidro,30
+MA431-SEC3-2025S2,MA431,Matemática Básica,1,B-713,Viernes,10:00,12:00,San Isidro,40
+MA431-SEC4-2025S2,MA431,Matemática Básica,1,A-703,Jueves,10:00,12:00,San Isidro,40
+MA431-SEC5-2025S2,MA431,Matemática Básica,1,B-713,Viernes,12:00,14:00,San Isidro,40
+MA431-SEC6-2025S2,MA431,Matemática Básica,1,A-705,Miércoles,8:00,10:00,San Isidro,40
+MA431-SEC7-2025S2,MA431,Matemática Básica,1,B-713,Viernes,18:00,20:00,San Isidro,40
+MA431-SEC8-2025S2,MA431,Matemática Básica,1,B-714,Viernes,10:00,12:00,San Isidro,40
+MA431-SEC9-2025S2,MA431,Matemática Básica,1,A-705,Jueves,10:00,12:00,San Isidro,40
+MA431-SEC10-2025S2,MA431,Matemática Básica,1,A-705,Martes,10:00,12:00,San Isidro,40
+MA459-SEC1-2025S2,MA459,Cálculo,1,A-716,Jueves,8:00,10:00,San Isidro,40
+MA459-SEC2-2025S2,MA459,Cálculo,1,A-204,Lunes,16:00,18:00,San Isidro,30
+MA459-SEC3-2025S2,MA459,Cálculo,1,B-207,Martes,18:00,20:00,San Isidro,30
+MA459-SEC4-2025S2,MA459,Cálculo,1,B-212,Miércoles,16:00,18:00,San Isidro,30
+MA459-SEC5-2025S2,MA459,Cálculo,1,A-713,Lunes,14:00,16:00,San Isidro,40
+MA459-SEC6-2025S2,MA459,Cálculo,1,A-712,Miércoles,18:00,20:00,San Isidro,40
+MA459-SEC7-2025S2,MA459,Cálculo,1,A-209,Miércoles,12:00,14:00,San Isidro,30
+MA459-SEC8-2025S2,MA459,Cálculo,1,B-712,Miércoles,18:00,20:00,San Isidro,40
+MA459-SEC9-2025S2,MA459,Cálculo,1,A-216,Miércoles,10:00,12:00,San Isidro,30
+MA459-SEC10-2025S2,MA459,Cálculo,1,B-706,Viernes,18:00,20:00,San Isidro,40
+MA459-SEC11-2025S2,MA459,Cálculo,1,B-710,Jueves,10:00,12:00,San Isidro,40
+MA460-SEC1-2025S2,MA460,Estadística Descriptiva,1,A-704,Miércoles,10:00,12:00,San Isidro,40
+MA460-SEC2-2025S2,MA460,Estadística Descriptiva,1,A-712,Lunes,12:00,14:00,San Isidro,40
+MA460-SEC3-2025S2,MA460,Estadística Descriptiva,1,B-209,Jueves,14:00,16:00,San Isidro,30
+MA460-SEC4-2025S2,MA460,Estadística Descriptiva,1,B-702,Martes,16:00,18:00,San Isidro,40
+MA460-SEC5-2025S2,MA460,Estadística Descriptiva,1,A-207,Martes,16:00,18:00,San Isidro,30
+MA460-SEC6-2025S2,MA460,Estadística Descriptiva,1,A-710,Martes,18:00,20:00,San Isidro,40
+MA460-SEC7-2025S2,MA460,Estadística Descriptiva,1,A-706,Viernes,16:00,18:00,San Isidro,40
+MA460-SEC8-2025S2,MA460,Estadística Descriptiva,1,A-208,Martes,8:00,10:00,San Isidro,30
+MA460-SEC9-2025S2,MA460,Estadística Descriptiva,1,A-701,Miércoles,16:00,18:00,San Isidro,40
+MA460-SEC10-2025S2,MA460,Estadística Descriptiva,1,B-712,Lunes,18:00,20:00,San Isidro,40
+MA460-SEC11-2025S2,MA460,Estadística Descriptiva,1,A-705,Martes,16:00,18:00,San Isidro,40
+HU318-SEC1-2025S2,HU318,Fundamentos de la Investigación Académica,1,A-706,Jueves,16:00,18:00,San Isidro,40
+HU318-SEC2-2025S2,HU318,Fundamentos de la Investigación Académica,1,B-213,Jueves,14:00,16:00,San Isidro,30
+HU318-SEC3-2025S2,HU318,Fundamentos de la Investigación Académica,1,A-708,Lunes,16:00,18:00,San Isidro,40
+HU318-SEC4-2025S2,HU318,Fundamentos de la Investigación Académica,1,A-702,Viernes,8:00,10:00,San Isidro,40
+HU318-SEC5-2025S2,HU318,Fundamentos de la Investigación Académica,1,B-204,Martes,18:00,20:00,San Isidro,30
+HU318-SEC6-2025S2,HU318,Fundamentos de la Investigación Académica,1,A-711,Miércoles,18:00,20:00,San Isidro,40
+HU318-SEC7-2025S2,HU318,Fundamentos de la Investigación Académica,1,B-707,Jueves,10:00,12:00,San Isidro,40
+HU318-SEC8-2025S2,HU318,Fundamentos de la Investigación Académica,1,A-213,Martes,10:00,12:00,San Isidro,30
+HU318-SEC9-2025S2,HU318,Fundamentos de la Investigación Académica,1,A-703,Viernes,18:00,20:00,San Isidro,40
+MA461-SEC1-2025S2,MA461,Estadística Inferencial,1,A-701,Lunes,16:00,18:00,San Isidro,40
+MA461-SEC2-2025S2,MA461,Estadística Inferencial,1,B-707,Viernes,12:00,14:00,San Isidro,40
+MA461-SEC3-2025S2,MA461,Estadística Inferencial,1,B-710,Miércoles,18:00,20:00,San Isidro,40
+MA461-SEC4-2025S2,MA461,Estadística Inferencial,1,B-711,Miércoles,14:00,16:00,San Isidro,40
+MA461-SEC5-2025S2,MA461,Estadística Inferencial,1,B-706,Jueves,18:00,20:00,San Isidro,40
+MA461-SEC6-2025S2,MA461,Estadística Inferencial,1,A-701,Martes,8:00,10:00,San Isidro,40
+MA461-SEC7-2025S2,MA461,Estadística Inferencial,1,B-702,Viernes,8:00,10:00,San Isidro,40
+MA461-SEC8-2025S2,MA461,Estadística Inferencial,1,B-214,Miércoles,12:00,14:00,San Isidro,30
+MA461-SEC9-2025S2,MA461,Estadística Inferencial,1,A-214,Lunes,16:00,18:00,San Isidro,30
+CO16-SEC1-2025S2,CO16,Taller de Introducción a las Comunicaciones,1,A-714,Lunes,12:00,14:00,San Isidro,40
+CO16-SEC2-2025S2,CO16,Taller de Introducción a las Comunicaciones,1,A-716,Miércoles,16:00,18:00,San Isidro,40
+CO16-SEC3-2025S2,CO16,Taller de Introducción a las Comunicaciones,1,B-204,Martes,10:00,12:00,San Isidro,30
+CO16-SEC4-2025S2,CO16,Taller de Introducción a las Comunicaciones,1,B-213,Jueves,8:00,10:00,San Isidro,30
+CO16-SEC5-2025S2,CO16,Taller de Introducción a las Comunicaciones,1,A-705,Martes,16:00,18:00,San Isidro,40
+CO16-SEC6-2025S2,CO16,Taller de Introducción a las Comunicaciones,1,A-209,Martes,18:00,20:00,San Isidro,30
+CO16-SEC7-2025S2,CO16,Taller de Introducción a las Comunicaciones,1,B-711,Miércoles,16:00,18:00,San Isidro,40
+CO16-SEC8-2025S2,CO16,Taller de Introducción a las Comunicaciones,1,A-713,Lunes,8:00,10:00,San Isidro,40
+CO16-SEC9-2025S2,CO16,Taller de Introducción a las Comunicaciones,1,B-701,Jueves,14:00,16:00,San Isidro,40
+CO16-SEC10-2025S2,CO16,Taller de Introducción a las Comunicaciones,1,B-212,Jueves,12:00,14:00,San Isidro,30
+CO16-SEC11-2025S2,CO16,Taller de Introducción a las Comunicaciones,1,B-710,Viernes,8:00,10:00,San Isidro,40
+CO19-SEC1-2025S2,CO19,Introducción a los Medios Digitales,1,A-702,Lunes,12:00,14:00,San Isidro,40
+CO19-SEC2-2025S2,CO19,Introducción a los Medios Digitales,1,A-704,Martes,8:00,10:00,San Isidro,40
+CO19-SEC3-2025S2,CO19,Introducción a los Medios Digitales,1,B-711,Lunes,8:00,10:00,San Isidro,40
+CO19-SEC4-2025S2,CO19,Introducción a los Medios Digitales,1,A-707,Miércoles,16:00,18:00,San Isidro,40
+CO19-SEC5-2025S2,CO19,Introducción a los Medios Digitales,1,B-701,Martes,18:00,20:00,San Isidro,40
+CO19-SEC6-2025S2,CO19,Introducción a los Medios Digitales,1,A-704,Martes,16:00,18:00,San Isidro,40
+CO19-SEC7-2025S2,CO19,Introducción a los Medios Digitales,1,A-701,Miércoles,16:00,18:00,San Isidro,40
+CO19-SEC8-2025S2,CO19,Introducción a los Medios Digitales,1,B-212,Miércoles,14:00,16:00,San Isidro,30
+CO19-SEC9-2025S2,CO19,Introducción a los Medios Digitales,1,B-209,Miércoles,14:00,16:00,San Isidro,30
+CO19-SEC10-2025S2,CO19,Introducción a los Medios Digitales,1,B-701,Jueves,16:00,18:00,San Isidro,40
+CO19-SEC11-2025S2,CO19,Introducción a los Medios Digitales,1,B-715,Miércoles,16:00,18:00,San Isidro,40
+CO13-SEC1-2025S2,CO13,Técnicas de Expresión Escrita,1,B-712,Viernes,14:00,16:00,San Isidro,40
+CO13-SEC2-2025S2,CO13,Técnicas de Expresión Escrita,1,A-215,Jueves,10:00,12:00,San Isidro,30
+CO13-SEC3-2025S2,CO13,Técnicas de Expresión Escrita,1,A-208,Lunes,14:00,16:00,San Isidro,30
+CO13-SEC4-2025S2,CO13,Técnicas de Expresión Escrita,1,A-708,Martes,8:00,10:00,San Isidro,40
+CO13-SEC5-2025S2,CO13,Técnicas de Expresión Escrita,1,A-704,Martes,18:00,20:00,San Isidro,40
+CO13-SEC6-2025S2,CO13,Técnicas de Expresión Escrita,1,A-204,Viernes,8:00,10:00,San Isidro,30
+CO13-SEC7-2025S2,CO13,Técnicas de Expresión Escrita,1,B-715,Miércoles,12:00,14:00,San Isidro,40
+CO13-SEC8-2025S2,CO13,Técnicas de Expresión Escrita,1,A-703,Lunes,8:00,10:00,San Isidro,40
+CO13-SEC9-2025S2,CO13,Técnicas de Expresión Escrita,1,A-706,Martes,10:00,12:00,San Isidro,40
+CO13-SEC10-2025S2,CO13,Técnicas de Expresión Escrita,1,B-708,Miércoles,12:00,14:00,San Isidro,40
+CO13-SEC11-2025S2,CO13,Técnicas de Expresión Escrita,1,A-708,Lunes,12:00,14:00,San Isidro,40
+CO22-SEC1-2025S2,CO22,Taller de Diseño Gráfico 1,1,B-210,Lunes,18:00,20:00,San Isidro,30
+CO22-SEC2-2025S2,CO22,Taller de Diseño Gráfico 1,1,B-705,Viernes,14:00,16:00,San Isidro,40
+CO22-SEC3-2025S2,CO22,Taller de Diseño Gráfico 1,1,B-708,Jueves,10:00,12:00,San Isidro,40
+CO22-SEC4-2025S2,CO22,Taller de Diseño Gráfico 1,1,A-709,Martes,18:00,20:00,San Isidro,40
+CO22-SEC5-2025S2,CO22,Taller de Diseño Gráfico 1,1,A-216,Jueves,10:00,12:00,San Isidro,30
+CO22-SEC6-2025S2,CO22,Taller de Diseño Gráfico 1,1,A-712,Miércoles,10:00,12:00,San Isidro,40
+CO22-SEC7-2025S2,CO22,Taller de Diseño Gráfico 1,1,B-713,Miércoles,16:00,18:00,San Isidro,40
+CO22-SEC8-2025S2,CO22,Taller de Diseño Gráfico 1,1,B-214,Martes,10:00,12:00,San Isidro,30
+CO22-SEC9-2025S2,CO22,Taller de Diseño Gráfico 1,1,A-205,Miércoles,10:00,12:00,San Isidro,30
+CO22-SEC10-2025S2,CO22,Taller de Diseño Gráfico 1,1,A-208,Viernes,14:00,16:00,San Isidro,30
+AF103-SEC1-2025S2,AF103,Fundamentos de las Finanzas,1,A-206,Lunes,12:00,14:00,San Isidro,30
+AF103-SEC2-2025S2,AF103,Fundamentos de las Finanzas,1,A-705,Lunes,18:00,20:00,San Isidro,40
+AF103-SEC3-2025S2,AF103,Fundamentos de las Finanzas,1,B-712,Jueves,10:00,12:00,San Isidro,40
+AF103-SEC4-2025S2,AF103,Fundamentos de las Finanzas,1,B-206,Jueves,8:00,10:00,San Isidro,30
+AF103-SEC5-2025S2,AF103,Fundamentos de las Finanzas,1,A-205,Lunes,8:00,10:00,San Isidro,30
+AF103-SEC6-2025S2,AF103,Fundamentos de las Finanzas,1,A-202,Miércoles,12:00,14:00,San Isidro,30
+AF103-SEC7-2025S2,AF103,Fundamentos de las Finanzas,1,B-710,Martes,14:00,16:00,San Isidro,40
+AF103-SEC8-2025S2,AF103,Fundamentos de las Finanzas,1,A-209,Viernes,18:00,20:00,San Isidro,30
+AF103-SEC9-2025S2,AF103,Fundamentos de las Finanzas,1,A-202,Miércoles,10:00,12:00,San Isidro,30
+CA142-SEC1-2025S2,CA142,Introducción a la Contabilidad Financiera,1,A-701,Jueves,16:00,18:00,San Isidro,40
+CA142-SEC2-2025S2,CA142,Introducción a la Contabilidad Financiera,1,B-715,Jueves,8:00,10:00,San Isidro,40
+CA142-SEC3-2025S2,CA142,Introducción a la Contabilidad Financiera,1,B-712,Viernes,16:00,18:00,San Isidro,40
+CA142-SEC4-2025S2,CA142,Introducción a la Contabilidad Financiera,1,B-703,Miércoles,18:00,20:00,San Isidro,40
+CA142-SEC5-2025S2,CA142,Introducción a la Contabilidad Financiera,1,A-708,Viernes,8:00,10:00,San Isidro,40
+CA142-SEC6-2025S2,CA142,Introducción a la Contabilidad Financiera,1,B-209,Miércoles,10:00,12:00,San Isidro,30
+CA142-SEC7-2025S2,CA142,Introducción a la Contabilidad Financiera,1,B-212,Martes,18:00,20:00,San Isidro,30
+CA142-SEC8-2025S2,CA142,Introducción a la Contabilidad Financiera,1,A-710,Jueves,10:00,12:00,San Isidro,40
+CA142-SEC9-2025S2,CA142,Introducción a la Contabilidad Financiera,1,A-704,Miércoles,12:00,14:00,San Isidro,40
+CA142-SEC10-2025S2,CA142,Introducción a la Contabilidad Financiera,1,B-710,Miércoles,18:00,20:00,San Isidro,40
+CA142-SEC11-2025S2,CA142,Introducción a la Contabilidad Financiera,1,A-707,Miércoles,10:00,12:00,San Isidro,40
+CA143-SEC1-2025S2,CA143,Introducción a la Contabilidad Gerencial,1,B-706,Jueves,14:00,16:00,San Isidro,40
+CA143-SEC2-2025S2,CA143,Introducción a la Contabilidad Gerencial,1,A-704,Martes,16:00,18:00,San Isidro,40
+CA143-SEC3-2025S2,CA143,Introducción a la Contabilidad Gerencial,1,B-703,Martes,14:00,16:00,San Isidro,40
+CA143-SEC4-2025S2,CA143,Introducción a la Contabilidad Gerencial,1,A-711,Martes,14:00,16:00,San Isidro,40
+CA143-SEC5-2025S2,CA143,Introducción a la Contabilidad Gerencial,1,A-706,Miércoles,12:00,14:00,San Isidro,40
+CA143-SEC6-2025S2,CA143,Introducción a la Contabilidad Gerencial,1,B-714,Jueves,8:00,10:00,San Isidro,40
+CA143-SEC7-2025S2,CA143,Introducción a la Contabilidad Gerencial,1,A-706,Miércoles,16:00,18:00,San Isidro,40
+CA143-SEC8-2025S2,CA143,Introducción a la Contabilidad Gerencial,1,B-714,Martes,16:00,18:00,San Isidro,40
+CA143-SEC9-2025S2,CA143,Introducción a la Contabilidad Gerencial,1,A-709,Miércoles,10:00,12:00,San Isidro,40
+CA143-SEC10-2025S2,CA143,Introducción a la Contabilidad Gerencial,1,A-706,Lunes,12:00,14:00,San Isidro,40
+AF141-SEC1-2025S2,AF141,Matemática Financiera,1,A-709,Martes,10:00,12:00,San Isidro,40
+AF141-SEC2-2025S2,AF141,Matemática Financiera,1,B-705,Viernes,10:00,12:00,San Isidro,40
+AF141-SEC3-2025S2,AF141,Matemática Financiera,1,B-705,Martes,10:00,12:00,San Isidro,40
+AF141-SEC4-2025S2,AF141,Matemática Financiera,1,A-711,Lunes,14:00,16:00,San Isidro,40
+AF141-SEC5-2025S2,AF141,Matemática Financiera,1,A-704,Viernes,10:00,12:00,San Isidro,40
+AF141-SEC6-2025S2,AF141,Matemática Financiera,1,A-216,Miércoles,14:00,16:00,San Isidro,30
+AF141-SEC7-2025S2,AF141,Matemática Financiera,1,A-210,Jueves,8:00,10:00,San Isidro,30
+AF141-SEC8-2025S2,AF141,Matemática Financiera,1,B-711,Miércoles,16:00,18:00,San Isidro,40
+AF141-SEC9-2025S2,AF141,Matemática Financiera,1,B-204,Martes,10:00,12:00,San Isidro,30
+AF140-SEC1-2025S2,AF140,Finanzas Corporativas,1,B-204,Viernes,8:00,10:00,San Isidro,30
+AF140-SEC2-2025S2,AF140,Finanzas Corporativas,1,B-715,Jueves,14:00,16:00,San Isidro,40
+AF140-SEC3-2025S2,AF140,Finanzas Corporativas,1,B-203,Lunes,12:00,14:00,San Isidro,30
+AF140-SEC4-2025S2,AF140,Finanzas Corporativas,1,A-703,Viernes,10:00,12:00,San Isidro,40
+AF140-SEC5-2025S2,AF140,Finanzas Corporativas,1,B-715,Jueves,12:00,14:00,San Isidro,40
+AF140-SEC6-2025S2,AF140,Finanzas Corporativas,1,B-703,Jueves,10:00,12:00,San Isidro,40
+AF140-SEC7-2025S2,AF140,Finanzas Corporativas,1,B-706,Viernes,14:00,16:00,San Isidro,40
+AF140-SEC8-2025S2,AF140,Finanzas Corporativas,1,A-206,Jueves,12:00,14:00,San Isidro,30
+AF140-SEC9-2025S2,AF140,Finanzas Corporativas,1,A-706,Viernes,10:00,12:00,San Isidro,40
+AD213-SEC1-2025S2,AD213,Administración de Operaciones,1,A-209,Jueves,8:00,10:00,San Isidro,30
+AD213-SEC2-2025S2,AD213,Administración de Operaciones,1,A-713,Martes,16:00,18:00,San Isidro,40
+AD213-SEC3-2025S2,AD213,Administración de Operaciones,1,A-215,Viernes,18:00,20:00,San Isidro,30
+AD213-SEC4-2025S2,AD213,Administración de Operaciones,1,A-707,Miércoles,8:00,10:00,San Isidro,40
+AD213-SEC5-2025S2,AD213,Administración de Operaciones,1,A-704,Martes,8:00,10:00,San Isidro,40
+AD213-SEC6-2025S2,AD213,Administración de Operaciones,1,A-702,Martes,14:00,16:00,San Isidro,40
+AD213-SEC7-2025S2,AD213,Administración de Operaciones,1,A-203,Viernes,10:00,12:00,San Isidro,30
+AD2508-SEC1-2025S2,AD2508,Comunicación para el Liderazgo,1,A-202,Viernes,16:00,18:00,San Isidro,30
+AD2508-SEC2-2025S2,AD2508,Comunicación para el Liderazgo,1,A-212,Jueves,10:00,12:00,San Isidro,30
+AD2508-SEC3-2025S2,AD2508,Comunicación para el Liderazgo,1,A-703,Jueves,18:00,20:00,San Isidro,40
+AD2508-SEC4-2025S2,AD2508,Comunicación para el Liderazgo,1,A-211,Viernes,10:00,12:00,San Isidro,30
+AD2508-SEC5-2025S2,AD2508,Comunicación para el Liderazgo,1,B-215,Lunes,14:00,16:00,San Isidro,30
+AD2454-SEC1-2025S2,AD2454,Gestión de Proyectos,1,B-704,Jueves,10:00,12:00,San Isidro,40
+AD2454-SEC2-2025S2,AD2454,Gestión de Proyectos,1,B-705,Viernes,8:00,10:00,San Isidro,40
+AD2454-SEC3-2025S2,AD2454,Gestión de Proyectos,1,A-708,Miércoles,12:00,14:00,San Isidro,40
+AD2454-SEC4-2025S2,AD2454,Gestión de Proyectos,1,B-203,Jueves,14:00,16:00,San Isidro,30
+AD2454-SEC5-2025S2,AD2454,Gestión de Proyectos,1,B-714,Viernes,8:00,10:00,San Isidro,40
+AD2454-SEC6-2025S2,AD2454,Gestión de Proyectos,1,A-714,Viernes,18:00,20:00,San Isidro,40
+AD2454-SEC7-2025S2,AD2454,Gestión de Proyectos,1,B-713,Lunes,18:00,20:00,San Isidro,40
+AD2507-SEC1-2025S2,AD2507,Metodología de la Investigación,1,B-207,Martes,18:00,20:00,San Isidro,30
+AD2507-SEC2-2025S2,AD2507,Metodología de la Investigación,1,B-713,Miércoles,18:00,20:00,San Isidro,40
+AD2507-SEC3-2025S2,AD2507,Metodología de la Investigación,1,A-701,Miércoles,12:00,14:00,San Isidro,40
+AD2507-SEC4-2025S2,AD2507,Metodología de la Investigación,1,B-713,Jueves,8:00,10:00,San Isidro,40
+AD2507-SEC5-2025S2,AD2507,Metodología de la Investigación,1,B-704,Miércoles,10:00,12:00,San Isidro,40
+AD2461-SEC1-2025S2,AD2461,Seminario de Tesis (Administración),1,A-712,Lunes,16:00,18:00,San Isidro,40
+AD2461-SEC2-2025S2,AD2461,Seminario de Tesis (Administración),1,A-202,Martes,16:00,18:00,San Isidro,30
+AD2461-SEC3-2025S2,AD2461,Seminario de Tesis (Administración),1,B-703,Martes,18:00,20:00,San Isidro,40
+AD2461-SEC4-2025S2,AD2461,Seminario de Tesis (Administración),1,A-704,Lunes,14:00,16:00,San Isidro,40
+AD2461-SEC5-2025S2,AD2461,Seminario de Tesis (Administración),1,B-710,Jueves,16:00,18:00,San Isidro,40
+AD2461-SEC6-2025S2,AD2461,Seminario de Tesis (Administración),1,B-714,Martes,16:00,18:00,San Isidro,40
+AF212-SEC1-2025S2,AF212,Seminario de Tesis (Finanzas),1,A-707,Jueves,16:00,18:00,San Isidro,40
+AF212-SEC2-2025S2,AF212,Seminario de Tesis (Finanzas),1,A-701,Viernes,8:00,10:00,San Isidro,40
+AF212-SEC3-2025S2,AF212,Seminario de Tesis (Finanzas),1,B-714,Jueves,18:00,20:00,San Isidro,40
+AF212-SEC4-2025S2,AF212,Seminario de Tesis (Finanzas),1,B-705,Lunes,18:00,20:00,San Isidro,40
+AF212-SEC5-2025S2,AF212,Seminario de Tesis (Finanzas),1,A-714,Lunes,14:00,16:00,San Isidro,40
+AF212-SEC6-2025S2,AF212,Seminario de Tesis (Finanzas),1,B-704,Miércoles,12:00,14:00,San Isidro,40
+AF212-SEC7-2025S2,AF212,Seminario de Tesis (Finanzas),1,B-705,Lunes,14:00,16:00,San Isidro,40
+AM230-SEC1-2025S2,AM230,Seminario de Tesis (Marketing),1,B-705,Viernes,12:00,14:00,San Isidro,40
+AM230-SEC2-2025S2,AM230,Seminario de Tesis (Marketing),1,A-713,Lunes,8:00,10:00,San Isidro,40
+AM230-SEC3-2025S2,AM230,Seminario de Tesis (Marketing),1,A-713,Miércoles,8:00,10:00,San Isidro,40
+AM230-SEC4-2025S2,AM230,Seminario de Tesis (Marketing),1,B-209,Viernes,12:00,14:00,San Isidro,30
+AM230-SEC5-2025S2,AM230,Seminario de Tesis (Marketing),1,B-206,Martes,18:00,20:00,San Isidro,30
+AM230-SEC6-2025S2,AM230,Seminario de Tesis (Marketing),1,B-702,Miércoles,18:00,20:00,San Isidro,40
+CA160-SEC1-2025S2,CA160,Seminario de Tesis (Contabilidad),1,A-703,Miércoles,8:00,10:00,San Isidro,40
+CA160-SEC2-2025S2,CA160,Seminario de Tesis (Contabilidad),1,B-704,Miércoles,18:00,20:00,San Isidro,40
+CA160-SEC3-2025S2,CA160,Seminario de Tesis (Contabilidad),1,B-714,Viernes,18:00,20:00,San Isidro,40
+CA160-SEC4-2025S2,CA160,Seminario de Tesis (Contabilidad),1,A-216,Miércoles,18:00,20:00,San Isidro,30
+CA160-SEC5-2025S2,CA160,Seminario de Tesis (Contabilidad),1,B-711,Miércoles,16:00,18:00,San Isidro,40
+CA160-SEC6-2025S2,CA160,Seminario de Tesis (Contabilidad),1,B-715,Jueves,16:00,18:00,San Isidro,40
+CA160-SEC7-2025S2,CA160,Seminario de Tesis (Contabilidad),1,A-203,Viernes,18:00,20:00,San Isidro,30
+AN22-SEC1-2025S2,AN22,Comercio Internacional,1,A-716,Martes,18:00,20:00,San Isidro,40
+AN22-SEC2-2025S2,AN22,Comercio Internacional,1,A-705,Lunes,14:00,16:00,San Isidro,40
+AN22-SEC3-2025S2,AN22,Comercio Internacional,1,A-712,Jueves,8:00,10:00,San Isidro,40
+AN22-SEC4-2025S2,AN22,Comercio Internacional,1,A-712,Miércoles,12:00,14:00,San Isidro,40
+AN22-SEC5-2025S2,AN22,Comercio Internacional,1,B-211,Lunes,8:00,10:00,San Isidro,30
+AN22-SEC6-2025S2,AN22,Comercio Internacional,1,B-712,Miércoles,14:00,16:00,San Isidro,40
+AN22-SEC7-2025S2,AN22,Comercio Internacional,1,A-203,Jueves,10:00,12:00,San Isidro,30
+AN22-SEC8-2025S2,AN22,Comercio Internacional,1,B-712,Viernes,14:00,16:00,San Isidro,40
+AN22-SEC9-2025S2,AN22,Comercio Internacional,1,A-712,Lunes,16:00,18:00,San Isidro,40
+AN20-SEC1-2025S2,AN20,Aduanas,1,B-208,Miércoles,12:00,14:00,San Isidro,30
+AN20-SEC2-2025S2,AN20,Aduanas,1,A-712,Lunes,18:00,20:00,San Isidro,40
+AN20-SEC3-2025S2,AN20,Aduanas,1,B-205,Martes,14:00,16:00,San Isidro,30
+AN20-SEC4-2025S2,AN20,Aduanas,1,A-214,Martes,10:00,12:00,San Isidro,30
+AN20-SEC5-2025S2,AN20,Aduanas,1,A-712,Martes,14:00,16:00,San Isidro,40
+AN20-SEC6-2025S2,AN20,Aduanas,1,B-701,Jueves,8:00,10:00,San Isidro,40
+AN81-SEC1-2025S2,AN81,Transporte Global,1,A-205,Miércoles,14:00,16:00,San Isidro,30
+AN81-SEC2-2025S2,AN81,Transporte Global,1,A-207,Viernes,18:00,20:00,San Isidro,30
+AN81-SEC3-2025S2,AN81,Transporte Global,1,A-712,Miércoles,16:00,18:00,San Isidro,40
+AN81-SEC4-2025S2,AN81,Transporte Global,1,A-708,Viernes,8:00,10:00,San Isidro,40
+AN81-SEC5-2025S2,AN81,Transporte Global,1,A-205,Martes,8:00,10:00,San Isidro,30
+AN85-SEC1-2025S2,AN85,Supply Chain Management,1,B-207,Jueves,14:00,16:00,San Isidro,30
+AN85-SEC2-2025S2,AN85,Supply Chain Management,1,B-211,Martes,10:00,12:00,San Isidro,30
+AN85-SEC3-2025S2,AN85,Supply Chain Management,1,A-715,Miércoles,10:00,12:00,San Isidro,40
+AN85-SEC4-2025S2,AN85,Supply Chain Management,1,B-714,Viernes,16:00,18:00,San Isidro,40
+AN85-SEC5-2025S2,AN85,Supply Chain Management,1,A-710,Viernes,8:00,10:00,San Isidro,40
+AN86-SEC1-2025S2,AN86,Dirección Multinacional,1,B-212,Miércoles,16:00,18:00,San Isidro,30
+AN86-SEC2-2025S2,AN86,Dirección Multinacional,1,A-706,Martes,18:00,20:00,San Isidro,40
+AN86-SEC3-2025S2,AN86,Dirección Multinacional,1,B-204,Jueves,8:00,10:00,San Isidro,30
+AN86-SEC4-2025S2,AN86,Dirección Multinacional,1,A-711,Viernes,16:00,18:00,San Isidro,40
+AN86-SEC5-2025S2,AN86,Dirección Multinacional,1,B-710,Miércoles,8:00,10:00,San Isidro,40
+AN86-SEC6-2025S2,AN86,Dirección Multinacional,1,B-703,Lunes,16:00,18:00,San Isidro,40
+IS203-SEC1-2025S2,IS203,Estructuras de Datos,1,B-710,Lunes,18:00,20:00,San Isidro,40
+IS203-SEC2-2025S2,IS203,Estructuras de Datos,1,A-714,Jueves,18:00,20:00,San Isidro,40
+IS203-SEC3-2025S2,IS203,Estructuras de Datos,1,A-206,Martes,12:00,14:00,San Isidro,30
+IS203-SEC4-2025S2,IS203,Estructuras de Datos,1,B-708,Miércoles,12:00,14:00,San Isidro,40
+IS203-SEC5-2025S2,IS203,Estructuras de Datos,1,A-709,Lunes,14:00,16:00,San Isidro,40
+IS203-SEC6-2025S2,IS203,Estructuras de Datos,1,A-713,Jueves,16:00,18:00,San Isidro,40
+IS203-SEC7-2025S2,IS203,Estructuras de Datos,1,A-208,Lunes,16:00,18:00,San Isidro,30
+IS203-SEC8-2025S2,IS203,Estructuras de Datos,1,A-713,Miércoles,18:00,20:00,San Isidro,40
+IS203-SEC9-2025S2,IS203,Estructuras de Datos,1,A-704,Miércoles,14:00,16:00,San Isidro,40
+IS203-SEC10-2025S2,IS203,Estructuras de Datos,1,A-201,Miércoles,12:00,14:00,San Isidro,30
+IS305-SEC1-2025S2,IS305,Bases de Datos,1,A-201,Lunes,8:00,10:00,San Isidro,30
+IS305-SEC2-2025S2,IS305,Bases de Datos,1,B-701,Miércoles,18:00,20:00,San Isidro,40
+IS305-SEC3-2025S2,IS305,Bases de Datos,1,B-707,Miércoles,12:00,14:00,San Isidro,40
+IS305-SEC4-2025S2,IS305,Bases de Datos,1,B-215,Jueves,18:00,20:00,San Isidro,30
+IS305-SEC5-2025S2,IS305,Bases de Datos,1,A-705,Jueves,8:00,10:00,San Isidro,40
+IS305-SEC6-2025S2,IS305,Bases de Datos,1,A-702,Martes,10:00,12:00,San Isidro,40
+IS305-SEC7-2025S2,IS305,Bases de Datos,1,A-702,Viernes,12:00,14:00,San Isidro,40
+IS305-SEC8-2025S2,IS305,Bases de Datos,1,A-704,Martes,10:00,12:00,San Isidro,40
+IS305-SEC9-2025S2,IS305,Bases de Datos,1,B-712,Viernes,18:00,20:00,San Isidro,40
+IS305-SEC10-2025S2,IS305,Bases de Datos,1,A-709,Martes,12:00,14:00,San Isidro,40
+CS210-SEC1-2025S2,CS210,Redes y Comunicaciones,1,B-211,Martes,18:00,20:00,San Isidro,30
+CS210-SEC2-2025S2,CS210,Redes y Comunicaciones,1,A-203,Martes,16:00,18:00,San Isidro,30
+CS210-SEC3-2025S2,CS210,Redes y Comunicaciones,1,A-715,Martes,10:00,12:00,San Isidro,40
+CS210-SEC4-2025S2,CS210,Redes y Comunicaciones,1,A-708,Martes,16:00,18:00,San Isidro,40
+CS210-SEC5-2025S2,CS210,Redes y Comunicaciones,1,A-705,Miércoles,10:00,12:00,San Isidro,40
+CS210-SEC6-2025S2,CS210,Redes y Comunicaciones,1,A-703,Martes,12:00,14:00,San Isidro,40
+CS210-SEC7-2025S2,CS210,Redes y Comunicaciones,1,B-712,Martes,8:00,10:00,San Isidro,40
+CS210-SEC8-2025S2,CS210,Redes y Comunicaciones,1,B-703,Jueves,8:00,10:00,San Isidro,40
+CY301-SEC1-2025S2,CY301,Fundamentos de Ciberseguridad,1,B-715,Martes,14:00,16:00,San Isidro,40
+CY301-SEC2-2025S2,CY301,Fundamentos de Ciberseguridad,1,A-211,Miércoles,14:00,16:00,San Isidro,30
+CY301-SEC3-2025S2,CY301,Fundamentos de Ciberseguridad,1,B-705,Martes,16:00,18:00,San Isidro,40
+CY301-SEC4-2025S2,CY301,Fundamentos de Ciberseguridad,1,B-715,Lunes,10:00,12:00,San Isidro,40
+CY301-SEC5-2025S2,CY301,Fundamentos de Ciberseguridad,1,A-207,Miércoles,14:00,16:00,San Isidro,30
+CY301-SEC6-2025S2,CY301,Fundamentos de Ciberseguridad,1,A-201,Lunes,8:00,10:00,San Isidro,30
+CY301-SEC7-2025S2,CY301,Fundamentos de Ciberseguridad,1,A-715,Viernes,14:00,16:00,San Isidro,40
+CY301-SEC8-2025S2,CY301,Fundamentos de Ciberseguridad,1,A-207,Miércoles,16:00,18:00,San Isidro,30
+CY301-SEC9-2025S2,CY301,Fundamentos de Ciberseguridad,1,A-708,Miércoles,10:00,12:00,San Isidro,40
+CY301-SEC10-2025S2,CY301,Fundamentos de Ciberseguridad,1,B-706,Lunes,16:00,18:00,San Isidro,40
+IN250-SEC1-2025S2,IN250,Procesos Industriales,1,B-713,Miércoles,12:00,14:00,San Isidro,40
+IN250-SEC2-2025S2,IN250,Procesos Industriales,1,B-203,Martes,10:00,12:00,San Isidro,30
+IN250-SEC3-2025S2,IN250,Procesos Industriales,1,A-203,Martes,12:00,14:00,San Isidro,30
+IN250-SEC4-2025S2,IN250,Procesos Industriales,1,A-703,Martes,16:00,18:00,San Isidro,40
+IN250-SEC5-2025S2,IN250,Procesos Industriales,1,A-711,Viernes,14:00,16:00,San Isidro,40
+IN250-SEC6-2025S2,IN250,Procesos Industriales,1,A-715,Lunes,8:00,10:00,San Isidro,40
+IN250-SEC7-2025S2,IN250,Procesos Industriales,1,B-712,Martes,8:00,10:00,San Isidro,40
+CV210-SEC1-2025S2,CV210,Mecánica de Materiales,1,A-703,Miércoles,8:00,10:00,San Isidro,40
+CV210-SEC2-2025S2,CV210,Mecánica de Materiales,1,A-202,Viernes,10:00,12:00,San Isidro,30
+CV210-SEC3-2025S2,CV210,Mecánica de Materiales,1,B-212,Lunes,10:00,12:00,San Isidro,30
+CV210-SEC4-2025S2,CV210,Mecánica de Materiales,1,A-703,Martes,10:00,12:00,San Isidro,40
+CV210-SEC5-2025S2,CV210,Mecánica de Materiales,1,A-208,Jueves,16:00,18:00,San Isidro,30
+CV210-SEC6-2025S2,CV210,Mecánica de Materiales,1,B-705,Lunes,12:00,14:00,San Isidro,40
+CV210-SEC7-2025S2,CV210,Mecánica de Materiales,1,B-710,Lunes,8:00,10:00,San Isidro,40
+CV210-SEC8-2025S2,CV210,Mecánica de Materiales,1,B-710,Jueves,18:00,20:00,San Isidro,40
+CV210-SEC9-2025S2,CV210,Mecánica de Materiales,1,A-711,Jueves,16:00,18:00,San Isidro,40
+CV210-SEC10-2025S2,CV210,Mecánica de Materiales,1,A-701,Jueves,12:00,14:00,San Isidro,40
+CV210-SEC11-2025S2,CV210,Mecánica de Materiales,1,A-705,Miércoles,16:00,18:00,San Isidro,40
+GE220-SEC1-2025S2,GE220,Gestión de Operaciones,1,A-705,Viernes,12:00,14:00,San Isidro,40
+GE220-SEC2-2025S2,GE220,Gestión de Operaciones,1,A-710,Jueves,18:00,20:00,San Isidro,40
+GE220-SEC3-2025S2,GE220,Gestión de Operaciones,1,B-208,Martes,10:00,12:00,San Isidro,30
+GE220-SEC4-2025S2,GE220,Gestión de Operaciones,1,B-706,Jueves,14:00,16:00,San Isidro,40
+GE220-SEC5-2025S2,GE220,Gestión de Operaciones,1,A-709,Miércoles,14:00,16:00,San Isidro,40
+GE220-SEC6-2025S2,GE220,Gestión de Operaciones,1,A-205,Jueves,18:00,20:00,San Isidro,30
+GE220-SEC7-2025S2,GE220,Gestión de Operaciones,1,A-703,Miércoles,18:00,20:00,San Isidro,40
+GE220-SEC8-2025S2,GE220,Gestión de Operaciones,1,A-704,Martes,8:00,10:00,San Isidro,40
+EC210-SEC1-2025S2,EC210,Econometría I,1,B-703,Lunes,18:00,20:00,San Isidro,40
+EC210-SEC2-2025S2,EC210,Econometría I,1,B-715,Lunes,8:00,10:00,San Isidro,40
+EC210-SEC3-2025S2,EC210,Econometría I,1,B-214,Martes,10:00,12:00,San Isidro,30
+EC210-SEC4-2025S2,EC210,Econometría I,1,A-213,Jueves,12:00,14:00,San Isidro,30
+EC210-SEC5-2025S2,EC210,Econometría I,1,B-711,Lunes,8:00,10:00,San Isidro,40
+EC210-SEC6-2025S2,EC210,Econometría I,1,A-204,Martes,14:00,16:00,San Isidro,30
+EC210-SEC7-2025S2,EC210,Econometría I,1,B-202,Jueves,12:00,14:00,San Isidro,30
+DE331-SEC1-2025S2,DE331,Derecho de los Negocios,1,A-707,Martes,10:00,12:00,San Isidro,40
+DE331-SEC2-2025S2,DE331,Derecho de los Negocios,1,A-708,Jueves,10:00,12:00,San Isidro,40
+DE331-SEC3-2025S2,DE331,Derecho de los Negocios,1,B-702,Viernes,8:00,10:00,San Isidro,40
+DE331-SEC4-2025S2,DE331,Derecho de los Negocios,1,A-704,Jueves,18:00,20:00,San Isidro,40
+DE331-SEC5-2025S2,DE331,Derecho de los Negocios,1,A-214,Martes,8:00,10:00,San Isidro,30
+DE331-SEC6-2025S2,DE331,Derecho de los Negocios,1,A-211,Viernes,14:00,16:00,San Isidro,30
+DE331-SEC7-2025S2,DE331,Derecho de los Negocios,1,B-711,Viernes,14:00,16:00,San Isidro,40
+DE331-SEC8-2025S2,DE331,Derecho de los Negocios,1,B-706,Jueves,8:00,10:00,San Isidro,40
+DE331-SEC9-2025S2,DE331,Derecho de los Negocios,1,B-210,Miércoles,8:00,10:00,San Isidro,30
+DE331-SEC10-2025S2,DE331,Derecho de los Negocios,1,B-215,Viernes,14:00,16:00,San Isidro,30
+DE965-SEC1-2025S2,DE965,Derecho de Comercio Internacional,1,A-712,Miércoles,14:00,16:00,San Isidro,40
+DE965-SEC2-2025S2,DE965,Derecho de Comercio Internacional,1,A-710,Jueves,18:00,20:00,San Isidro,40
+DE965-SEC3-2025S2,DE965,Derecho de Comercio Internacional,1,B-707,Lunes,12:00,14:00,San Isidro,40
+DE965-SEC4-2025S2,DE965,Derecho de Comercio Internacional,1,A-701,Lunes,12:00,14:00,San Isidro,40
+DE965-SEC5-2025S2,DE965,Derecho de Comercio Internacional,1,B-712,Martes,8:00,10:00,San Isidro,40
+DE965-SEC6-2025S2,DE965,Derecho de Comercio Internacional,1,B-206,Jueves,14:00,16:00,San Isidro,30
+DE965-SEC7-2025S2,DE965,Derecho de Comercio Internacional,1,A-706,Martes,16:00,18:00,San Isidro,40
+PS210-SEC1-2025S2,PS210,Psicología del Aprendizaje,1,A-714,Miércoles,14:00,16:00,San Isidro,40
+PS210-SEC2-2025S2,PS210,Psicología del Aprendizaje,1,A-214,Jueves,16:00,18:00,San Isidro,30
+PS210-SEC3-2025S2,PS210,Psicología del Aprendizaje,1,B-709,Lunes,12:00,14:00,San Isidro,40
+PS210-SEC4-2025S2,PS210,Psicología del Aprendizaje,1,A-208,Jueves,18:00,20:00,San Isidro,30
+PS210-SEC5-2025S2,PS210,Psicología del Aprendizaje,1,B-208,Viernes,10:00,12:00,San Isidro,30
+PS210-SEC6-2025S2,PS210,Psicología del Aprendizaje,1,A-704,Viernes,12:00,14:00,San Isidro,40
+PS210-SEC7-2025S2,PS210,Psicología del Aprendizaje,1,B-702,Lunes,14:00,16:00,San Isidro,40
+PS210-SEC8-2025S2,PS210,Psicología del Aprendizaje,1,B-705,Jueves,14:00,16:00,San Isidro,40
+PS210-SEC9-2025S2,PS210,Psicología del Aprendizaje,1,B-712,Lunes,18:00,20:00,San Isidro,40
+PS210-SEC10-2025S2,PS210,Psicología del Aprendizaje,1,B-702,Jueves,14:00,16:00,San Isidro,40
+PS210-SEC11-2025S2,PS210,Psicología del Aprendizaje,1,A-712,Lunes,10:00,12:00,San Isidro,40
+ID999-SEC1-2025S2,ID999,Seminario de Tesis (Ingeniería de Software),1,A-215,Miércoles,18:00,20:00,San Isidro,30
+ID999-SEC2-2025S2,ID999,Seminario de Tesis (Ingeniería de Software),1,A-210,Martes,12:00,14:00,San Isidro,30
+ID999-SEC3-2025S2,ID999,Seminario de Tesis (Ingeniería de Software),1,A-712,Lunes,18:00,20:00,San Isidro,40
+ID999-SEC4-2025S2,ID999,Seminario de Tesis (Ingeniería de Software),1,B-213,Viernes,12:00,14:00,San Isidro,30
+ID999-SEC5-2025S2,ID999,Seminario de Tesis (Ingeniería de Software),1,A-704,Viernes,14:00,16:00,San Isidro,40
+ID999-SEC6-2025S2,ID999,Seminario de Tesis (Ingeniería de Software),1,B-710,Viernes,10:00,12:00,San Isidro,40
+ID999-SEC7-2025S2,ID999,Seminario de Tesis (Ingeniería de Sistemas de Información),1,B-709,Martes,8:00,10:00,San Isidro,40
+ID999-SEC8-2025S2,ID999,Seminario de Tesis (Ingeniería de Sistemas de Información),1,B-715,Jueves,18:00,20:00,San Isidro,40
+ID999-SEC9-2025S2,ID999,Seminario de Tesis (Ingeniería de Sistemas de Información),1,A-701,Miércoles,14:00,16:00,San Isidro,40
+ID999-SEC10-2025S2,ID999,Seminario de Tesis (Ingeniería de Sistemas de Información),1,A-206,Lunes,16:00,18:00,San Isidro,30
+ID999-SEC11-2025S2,ID999,Seminario de Tesis (Ingeniería de Sistemas de Información),1,A-212,Lunes,16:00,18:00,San Isidro,30
+ID999-SEC12-2025S2,ID999,Seminario de Tesis (Ingeniería de Ciberseguridad),1,B-709,Lunes,14:00,16:00,San Isidro,40
+ID999-SEC13-2025S2,ID999,Seminario de Tesis (Ingeniería de Ciberseguridad),1,B-713,Jueves,12:00,14:00,San Isidro,40
+ID999-SEC14-2025S2,ID999,Seminario de Tesis (Ingeniería de Ciberseguridad),1,A-214,Martes,8:00,10:00,San Isidro,30
+ID999-SEC15-2025S2,ID999,Seminario de Tesis (Ingeniería de Ciberseguridad),1,A-216,Martes,14:00,16:00,San Isidro,30
+ID999-SEC16-2025S2,ID999,Seminario de Tesis (Ingeniería de Ciberseguridad),1,A-710,Jueves,10:00,12:00,San Isidro,40
+ID999-SEC17-2025S2,ID999,Seminario de Tesis (Ingeniería de Ciberseguridad),1,A-716,Miércoles,18:00,20:00,San Isidro,40
+ID999-SEC18-2025S2,ID999,Seminario de Tesis (Ingeniería de Ciberseguridad),1,A-710,Viernes,18:00,20:00,San Isidro,40
+II999-SEC1-2025S2,II999,Seminario de Tesis (Ingeniería Industrial),1,A-215,Miércoles,12:00,14:00,San Isidro,30
+II999-SEC2-2025S2,II999,Seminario de Tesis (Ingeniería Industrial),1,A-211,Miércoles,12:00,14:00,San Isidro,30
+II999-SEC3-2025S2,II999,Seminario de Tesis (Ingeniería Industrial),1,A-705,Jueves,10:00,12:00,San Isidro,40
+II999-SEC4-2025S2,II999,Seminario de Tesis (Ingeniería Industrial),1,B-210,Viernes,10:00,12:00,San Isidro,30
+II999-SEC5-2025S2,II999,Seminario de Tesis (Ingeniería Industrial),1,B-709,Jueves,12:00,14:00,San Isidro,40
+IC999-SEC1-2025S2,IC999,Seminario de Tesis (Ingeniería Civil),1,B-702,Lunes,18:00,20:00,San Isidro,40
+IC999-SEC2-2025S2,IC999,Seminario de Tesis (Ingeniería Civil),1,B-215,Jueves,18:00,20:00,San Isidro,30
+IC999-SEC3-2025S2,IC999,Seminario de Tesis (Ingeniería Civil),1,B-701,Jueves,8:00,10:00,San Isidro,40
+IC999-SEC4-2025S2,IC999,Seminario de Tesis (Ingeniería Civil),1,B-710,Miércoles,12:00,14:00,San Isidro,40
+IC999-SEC5-2025S2,IC999,Seminario de Tesis (Ingeniería Civil),1,B-210,Miércoles,10:00,12:00,San Isidro,30
+IC999-SEC6-2025S2,IC999,Seminario de Tesis (Ingeniería Civil),1,B-711,Martes,18:00,20:00,San Isidro,40
+ID999-SEC19-2025S2,ID999,Seminario de Tesis (Ingeniería de Gestión Empresarial),1,A-704,Lunes,12:00,14:00,San Isidro,40
+ID999-SEC20-2025S2,ID999,Seminario de Tesis (Ingeniería de Gestión Empresarial),1,B-712,Lunes,12:00,14:00,San Isidro,40
+ID999-SEC21-2025S2,ID999,Seminario de Tesis (Ingeniería de Gestión Empresarial),1,B-202,Jueves,8:00,10:00,San Isidro,30
+ID999-SEC22-2025S2,ID999,Seminario de Tesis (Ingeniería de Gestión Empresarial),1,A-713,Lunes,12:00,14:00,San Isidro,40
+ID999-SEC23-2025S2,ID999,Seminario de Tesis (Ingeniería de Gestión Empresarial),1,A-216,Viernes,16:00,18:00,San Isidro,30
+ID999-SEC24-2025S2,ID999,Seminario de Tesis (Ingeniería de Gestión Empresarial),1,B-212,Miércoles,8:00,10:00,San Isidro,30
+EY999-SEC1-2025S2,EY999,Seminario de Tesis (Economía y Ciencia de Datos),1,B-208,Miércoles,12:00,14:00,San Isidro,30
+EY999-SEC2-2025S2,EY999,Seminario de Tesis (Economía y Ciencia de Datos),1,A-709,Lunes,18:00,20:00,San Isidro,40
+EY999-SEC3-2025S2,EY999,Seminario de Tesis (Economía y Ciencia de Datos),1,B-708,Viernes,8:00,10:00,San Isidro,40
+EY999-SEC4-2025S2,EY999,Seminario de Tesis (Economía y Ciencia de Datos),1,B-713,Miércoles,18:00,20:00,San Isidro,40
+EY999-SEC5-2025S2,EY999,Seminario de Tesis (Economía y Ciencia de Datos),1,B-212,Miércoles,12:00,14:00,San Isidro,30
+RI999-SEC1-2025S2,RI999,Seminario de Tesis (Relaciones Internacionales),1,A-709,Miércoles,18:00,20:00,San Isidro,40
+RI999-SEC2-2025S2,RI999,Seminario de Tesis (Relaciones Internacionales),1,A-714,Martes,8:00,10:00,San Isidro,40
+RI999-SEC3-2025S2,RI999,Seminario de Tesis (Relaciones Internacionales),1,B-204,Jueves,18:00,20:00,San Isidro,30
+RI999-SEC4-2025S2,RI999,Seminario de Tesis (Relaciones Internacionales),1,B-701,Jueves,18:00,20:00,San Isidro,40
+RI999-SEC5-2025S2,RI999,Seminario de Tesis (Relaciones Internacionales),1,B-702,Miércoles,8:00,10:00,San Isidro,40
+CY999-SEC1-2025S2,CY999,Seminario de Tesis (Comunicación y Marketing),1,B-711,Lunes,14:00,16:00,San Isidro,40
+CY999-SEC2-2025S2,CY999,Seminario de Tesis (Comunicación y Marketing),1,A-210,Martes,16:00,18:00,San Isidro,30
+CY999-SEC3-2025S2,CY999,Seminario de Tesis (Comunicación y Marketing),1,A-211,Miércoles,16:00,18:00,San Isidro,30
+CY999-SEC4-2025S2,CY999,Seminario de Tesis (Comunicación y Marketing),1,B-702,Lunes,12:00,14:00,San Isidro,40
+CY999-SEC5-2025S2,CY999,Seminario de Tesis (Comunicación y Marketing),1,B-702,Viernes,12:00,14:00,San Isidro,40
+CY999-SEC6-2025S2,CY999,Seminario de Tesis (Comunicación y Periodismo),1,A-215,Miércoles,16:00,18:00,San Isidro,30
+CY999-SEC7-2025S2,CY999,Seminario de Tesis (Comunicación y Periodismo),1,A-706,Martes,12:00,14:00,San Isidro,40
+CY999-SEC8-2025S2,CY999,Seminario de Tesis (Comunicación y Periodismo),1,A-710,Viernes,12:00,14:00,San Isidro,40
+CY999-SEC9-2025S2,CY999,Seminario de Tesis (Comunicación y Periodismo),1,A-716,Jueves,16:00,18:00,San Isidro,40
+CY999-SEC10-2025S2,CY999,Seminario de Tesis (Comunicación y Periodismo),1,B-714,Viernes,18:00,20:00,San Isidro,40
+CE999-SEC1-2025S2,CE999,Seminario de Tesis (Comunicación e Imagen Empresarial),1,B-707,Viernes,16:00,18:00,San Isidro,40
+CE999-SEC2-2025S2,CE999,Seminario de Tesis (Comunicación e Imagen Empresarial),1,A-209,Lunes,10:00,12:00,San Isidro,30
+CE999-SEC3-2025S2,CE999,Seminario de Tesis (Comunicación e Imagen Empresarial),1,A-204,Viernes,8:00,10:00,San Isidro,30
+CE999-SEC4-2025S2,CE999,Seminario de Tesis (Comunicación e Imagen Empresarial),1,A-715,Lunes,14:00,16:00,San Isidro,40
+CE999-SEC5-2025S2,CE999,Seminario de Tesis (Comunicación e Imagen Empresarial),1,A-706,Jueves,16:00,18:00,San Isidro,40
+CE999-SEC6-2025S2,CE999,Seminario de Tesis (Comunicación e Imagen Empresarial),1,B-204,Martes,16:00,18:00,San Isidro,30
+CE999-SEC7-2025S2,CE999,Seminario de Tesis (Comunicación e Imagen Empresarial),1,A-701,Viernes,16:00,18:00,San Isidro,40
+CA999-SEC1-2025S2,CA999,Seminario de Tesis (Comunicación Audiovisual y Medios Interactivos),1,B-713,Martes,8:00,10:00,San Isidro,40
+CA999-SEC2-2025S2,CA999,Seminario de Tesis (Comunicación Audiovisual y Medios Interactivos),1,A-712,Viernes,16:00,18:00,San Isidro,40
+CA999-SEC3-2025S2,CA999,Seminario de Tesis (Comunicación Audiovisual y Medios Interactivos),1,B-709,Lunes,18:00,20:00,San Isidro,40
+CA999-SEC4-2025S2,CA999,Seminario de Tesis (Comunicación Audiovisual y Medios Interactivos),1,A-705,Viernes,8:00,10:00,San Isidro,40
+CA999-SEC5-2025S2,CA999,Seminario de Tesis (Comunicación Audiovisual y Medios Interactivos),1,B-701,Viernes,10:00,12:00,San Isidro,40
+CA999-SEC6-2025S2,CA999,Seminario de Tesis (Comunicación Audiovisual y Medios Interactivos),1,B-213,Jueves,12:00,14:00,San Isidro,30
+D999-SEC1-2025S2,D999,Seminario de Tesis (Derecho),1,B-712,Lunes,14:00,16:00,San Isidro,40
+D999-SEC2-2025S2,D999,Seminario de Tesis (Derecho),1,B-703,Miércoles,10:00,12:00,San Isidro,40
+D999-SEC3-2025S2,D999,Seminario de Tesis (Derecho),1,A-701,Viernes,18:00,20:00,San Isidro,40
+D999-SEC4-2025S2,D999,Seminario de Tesis (Derecho),1,A-201,Viernes,8:00,10:00,San Isidro,30
+D999-SEC5-2025S2,D999,Seminario de Tesis (Derecho),1,B-213,Jueves,8:00,10:00,San Isidro,30
+D999-SEC6-2025S2,D999,Seminario de Tesis (Derecho),1,A-716,Martes,12:00,14:00,San Isidro,40
+D999-SEC7-2025S2,D999,Seminario de Tesis (Derecho),1,B-714,Miércoles,8:00,10:00,San Isidro,40
+PE999-SEC1-2025S2,PE999,Seminario de Tesis (Psicología Educacional),1,B-704,Lunes,8:00,10:00,San Isidro,40
+PE999-SEC2-2025S2,PE999,Seminario de Tesis (Psicología Educacional),1,A-712,Martes,8:00,10:00,San Isidro,40
+PE999-SEC3-2025S2,PE999,Seminario de Tesis (Psicología Educacional),1,A-211,Miércoles,16:00,18:00,San Isidro,30
+PE999-SEC4-2025S2,PE999,Seminario de Tesis (Psicología Educacional),1,A-715,Viernes,8:00,10:00,San Isidro,40
+PE999-SEC5-2025S2,PE999,Seminario de Tesis (Psicología Educacional),1,A-205,Viernes,10:00,12:00,San Isidro,30

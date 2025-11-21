@@ -1,0 +1,94 @@
+# ============================================================================
+# SIMULADOR DE EPIDEMIAS - DEPENDENCIAS
+# ============================================================================
+# Optimizado para Apple Silicon (M1/M2/M3) con Accelerate framework
+#
+# INSTALACIÓN RECOMENDADA:
+#   pip3 install -r requerimientos.txt
+#
+# VERIFICACIÓN DE OPTIMIZACIONES:
+#   python3 verify_acceleration.py
+#
+# DOCUMENTACIÓN COMPLETA:
+#   Ver GUIA_DEPENDENCIAS.md para información detallada
+# ============================================================================
+
+# ----------------------------------------------------------------------------
+# WEB API (NUEVO)
+# ----------------------------------------------------------------------------
+
+# FastAPI: Framework web moderno y rápido para APIs REST
+fastapi>=0.104.0
+
+# Uvicorn: Servidor ASGI para FastAPI
+uvicorn[standard]>=0.24.0
+
+# Pydantic: Validación de datos y schemas
+pydantic>=2.4.0
+
+# ----------------------------------------------------------------------------
+# COMPUTACIÓN CIENTÍFICA (CRÍTICO)
+# ----------------------------------------------------------------------------
+
+# NumPy: Operaciones vectoriales optimizadas con Accelerate (vecLib/BLAS)
+# IMPORTANTE: 
+# - Versión 1.26.x por compatibilidad con pandas<2.0
+# - En Apple Silicon debería usar Accelerate framework nativo
+# - Si verify_acceleration.py muestra OpenBLAS, reinstalar con:
+#   pip3 uninstall -y numpy && pip3 install --no-cache-dir "numpy>=1.26,<2"
+numpy>=1.26,<2.0
+
+# SciPy: Matrices dispersas (CSR) para redes de contacto
+# Reduce memoria de O(N²) a O(E) donde E = número de aristas
+scipy>=1.13.1
+
+# Pandas: Procesamiento de datos CSV (estudiantes, clases, asistencias)
+# Requiere numpy<2.0
+pandas>=1.5.0
+
+# ----------------------------------------------------------------------------
+# ANÁLISIS DE GRAFOS (CRÍTICO)
+# ----------------------------------------------------------------------------
+
+# NetworkX: MST (Kruskal), componentes débilmente conectados, métricas de red
+networkx>=3.0
+
+# ----------------------------------------------------------------------------
+# VISUALIZACIÓN
+# ----------------------------------------------------------------------------
+
+# Matplotlib: Gráficas de evolución temporal, distribución de grados
+matplotlib>=3.5.0
+
+# tqdm: Barras de progreso en consola (opcional pero recomendado)
+tqdm>=4.65.0
+
+# ----------------------------------------------------------------------------
+# DESARROLLO (OPCIONAL)
+# ----------------------------------------------------------------------------
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Code quality
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.4.0
+
+# ----------------------------------------------------------------------------
+# NOTAS IMPORTANTES
+# ----------------------------------------------------------------------------
+# 
+# NumExpr NO está incluido:
+#   - En Apple Silicon es 2-5x MÁS LENTO que NumPy con Accelerate
+#   - Ver benchmark en GUIA_DEPENDENCIAS.md
+#
+# Para verificar optimizaciones:
+#   python3 verify_acceleration.py
+#
+# Backend esperado en Apple Silicon:
+#   ✓ ÓPTIMO: Accelerate framework (~320M ops/seg)
+#   ⚠ BUENO: OpenBLAS (~270M ops/seg)
+#   ✗ MALO: Genérico (<200M ops/seg)
+# ============================================================================

@@ -77,7 +77,7 @@ async def get_all_nodes():
             for _, row in estudiantes.iterrows()
         ]
         
-        logger.info(f"Retornando {len(nodes)} nodos para visualización")
+        # Retornando nodos
         
         return NodesResponse(
             total=len(nodes),

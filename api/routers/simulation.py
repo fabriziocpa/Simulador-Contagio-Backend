@@ -143,7 +143,7 @@ async def start_simulation(request: SimulationRequest):
         # Asegurar que son strings
         pacientes_cero = [str(pid) for pid in pacientes_cero]
         
-        logger.info(f"Simulación {simulation_id} iniciada con beta={request.beta}, pacientes_cero={pacientes_cero}")
+        # Simulación iniciada
         
         # Ejecutar simulación
         infected_by_day = []
@@ -226,7 +226,7 @@ async def start_simulation(request: SimulationRequest):
             'timestamp': time.time()
         }
         
-        logger.info(f"Simulación {simulation_id} completada. Total infectados: {sum(global_states.values())}")
+        # Simulación completada
         
         return SimulationResponse(
             simulation_id=simulation_id,
@@ -257,7 +257,7 @@ async def get_infected(simulation_id: str):
     num_estudiantes = len(sim['estudiantes'])
     tasa_ataque = (total_final / num_estudiantes) * 100 if num_estudiantes > 0 else 0
     
-    logger.info(f"Retornando infectados de simulación {simulation_id}")
+    # Retornando infectados
     
     return InfectedResponse(
         simulation_id=simulation_id,
@@ -292,7 +292,7 @@ async def get_wcc(simulation_id: str):
                 super_spreaders=comp['super_spreaders']
             ))
     
-    logger.info(f"Retornando WCC de simulación {simulation_id}")
+    # Retornando WCC
     
     return WCCResponse(
         simulation_id=simulation_id,

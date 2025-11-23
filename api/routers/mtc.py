@@ -75,7 +75,6 @@ class MTCInfo(BaseModel):
     
     # Interpretación contextual
     interpretacion: str
-    recomendaciones: List[str]
 
 
 # ============================================================================
@@ -96,7 +95,6 @@ def get_dependencies():
         _loader = DataLoader(PATHS.estudiantes, PATHS.clases, PATHS.asistencias)
         _processor = DataProcessor()
         _graph_builder = ContactGraphBuilder()
-        logger.info("Dependencias de MTC inicializadas")
     
     return _loader, _processor, _graph_builder
 
@@ -193,35 +191,6 @@ async def analyze_mtc(weight_mode: str = "inverse", dia: str = "Lunes"):
             f"transmisión más probables en caso de epidemia."
         )
         
-        # Generar recomendaciones
-        recomendaciones = []
-        if len(bridge_nodes) > 0:
-            recomendaciones.append(
-                f"Priorizar vigilancia epidemiológica en los {len(bridge_nodes)} nodos puente identificados, "
-                f"ya que conectan múltiples grupos."
-            )
-        
-        if mst_data['num_componentes'] > 1:
-            recomendaciones.append(
-                f"La red tiene {mst_data['num_componentes']} componentes aislados. "
-                f"Las intervenciones pueden ser más efectivas si se enfocan por componente."
-            )
-        else:
-            recomendaciones.append(
-                "La red está completamente conectada. Una epidemia podría propagarse a toda la población "
-                "si no se implementan medidas de control."
-            )
-        
-        if len(critical_edges) > 0:
-            avg_critical = sum(e.peso for e in critical_edges[:3]) / min(3, len(critical_edges))
-            if avg_critical > 5:
-                recomendaciones.append(
-                    "Se detectaron contactos muy frecuentes. Considerar distanciamiento físico o "
-                    "reducción de tamaño de grupos en clases más concurridas."
-                )
-        
-        logger.info(f"Análisis MTC completado para {dia}: {mtc_id}")
-        
         return MTCInfo(
             mtc_id=mtc_id,
             num_nodos=num_nodos,
@@ -233,8 +202,7 @@ async def analyze_mtc(weight_mode: str = "inverse", dia: str = "Lunes"):
             num_componentes=mst_data['num_componentes'],
             aristas_criticas=critical_edges,
             nodos_puente=bridge_nodes,
-            interpretacion=interpretacion,
-            recomendaciones=recomendaciones
+            interpretacion=interpretacion
         )
     
     except HTTPException:

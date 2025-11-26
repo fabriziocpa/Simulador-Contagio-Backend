@@ -35,6 +35,20 @@ class NodesResponse(BaseModel):
     nodes: List[StudentNode]
 
 
+class StudentDetail(BaseModel):
+    """Detalle completo de un estudiante."""
+    id: str
+    nombre: str
+    carrera: str
+    anio_ingreso: int
+
+
+class StudentsResponse(BaseModel):
+    """Respuesta con lista de estudiantes detallados."""
+    total: int
+    students: List[StudentDetail]
+
+
 # Instancia global del loader (singleton para eficiencia)
 _loader = None
 
@@ -87,3 +101,46 @@ async def get_all_nodes():
     except Exception as e:
         logger.error(f"Error al obtener nodos: {str(e)}")
         raise HTTPException(status_code=500, detail=f"Error al cargar nodos: {str(e)}")
+
+
+@router.get("/students", response_model=StudentsResponse)
+async def get_students(ids: str = None):
+    """
+    Obtiene información detallada de estudiantes.
+    
+    Query params:
+        ids: Comma-separated list of student IDs (e.g., "123,456,789")
+        
+    Returns:
+        StudentsResponse with detailed student information
+    """
+    try:
+        loader = get_loader()
+        estudiantes, _, _ = loader.load_all()
+        
+        if ids:
+            # Parse comma-separated IDs
+            id_list = [id.strip() for id in ids.split(',')]
+            # Filter estudiantes by IDs (convert both to string for comparison)
+            filtered = estudiantes[estudiantes['id_estudiante'].astype(str).isin(id_list)]
+        else:
+            filtered = estudiantes
+        
+        students = [
+            StudentDetail(
+                id=str(row['id_estudiante']),
+                nombre=row['nombre'],
+                carrera=row['carrera'],
+                anio_ingreso=int(row['anio_ingreso'])
+            )
+            for _, row in filtered.iterrows()
+        ]
+        
+        return StudentsResponse(
+            total=len(students),
+            students=students
+        )
+    
+    except Exception as e:
+        logger.error(f"Error al obtener estudiantes: {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Error al cargar estudiantes: {str(e)}")

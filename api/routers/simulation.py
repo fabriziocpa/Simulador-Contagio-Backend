@@ -70,6 +70,7 @@ class WCCComponent(BaseModel):
     """Componente WCC."""
     tamano: int
     super_spreaders: List[Dict[str, Any]]
+    miembros: List[str]  # NEW: All member IDs in the component
 
 
 class WCCResponse(BaseModel):
@@ -79,6 +80,18 @@ class WCCResponse(BaseModel):
     componente_gigante_size: int
     top_components: List[WCCComponent]
     fragmentacion_index: float
+
+
+class SimulationSummary(BaseModel):
+    """Resumen completo de simulación."""
+    simulation_id: str
+    total_dias: int
+    total_infectados: int
+    tasa_ataque: float
+    pacientes_cero: List[str]
+    infectados_finales_ids: List[str]
+    curva_crecimiento: List[Dict[str, int]]
+    severidad: str  # 'baja', 'media', 'alta'
 
 
 # ============================================================================
@@ -286,10 +299,11 @@ async def get_wcc(simulation_id: str):
     # Extraer componentes principales
     top_components = []
     if 'analisis_componentes' in wcc and wcc['analisis_componentes']:
-        for comp in wcc['analisis_componentes'][:3]:
+        for comp in wcc['analisis_componentes']:  # Return ALL components
             top_components.append(WCCComponent(
                 tamano=comp['tamano'],
-                super_spreaders=comp['super_spreaders']
+                super_spreaders=comp['super_spreaders'],
+                miembros=comp.get('miembros', [])  # Include all member IDs
             ))
     
     # Retornando WCC
@@ -300,4 +314,63 @@ async def get_wcc(simulation_id: str):
         componente_gigante_size=wcc['componente_gigante'],
         top_components=top_components,
         fragmentacion_index=1.0 - (wcc['componente_gigante'] / sum(wcc['tamanos'])) if sum(wcc['tamanos']) > 0 else 0.0
+    )
+
+
+@router.get("/simulation/{simulation_id}/summary", response_model=SimulationSummary)
+async def get_simulation_summary(simulation_id: str):
+    """
+    Obtiene resumen completo de la simulación con estadísticas finales.
+    
+    Incluye:
+    - Total de días y infectados
+    - Tasa de ataque
+    - Severidad (baja/media/alta)
+    - Lista completa de infectados finales
+    - Curva de crecimiento
+    
+    Returns:
+        SimulationSummary con métricas completas
+    """
+    if simulation_id not in _simulations:
+        raise HTTPException(status_code=404, detail="Simulación no encontrada")
+    
+    sim = _simulations[simulation_id]
+    
+    # Calcular métricas
+    total_dias = len(sim['infected_by_day'])
+    total_infectados = sum(sim['global_states'].values())
+    num_estudiantes = len(sim['estudiantes'])
+    tasa_ataque = (total_infectados / num_estudiantes) * 100 if num_estudiantes > 0 else 0
+    
+    # Determinar severidad
+    if tasa_ataque < 20:
+        severidad = "baja"
+    elif tasa_ataque < 50:
+        severidad = "media"
+    else:
+        severidad = "alta"
+    
+    # Infectados finales (todos con estado 1)
+    infectados_finales = [str(sid) for sid, state in sim['global_states'].items() if state == 1]
+    
+    # Curva de crecimiento
+    curva = [
+        {
+            'dia': day.dia_numero,
+            'total': day.total_infectados,
+            'nuevos': day.nuevos_infectados
+        }
+        for day in sim['infected_by_day']
+    ]
+    
+    return SimulationSummary(
+        simulation_id=simulation_id,
+        total_dias=total_dias,
+        total_infectados=total_infectados,
+        tasa_ataque=round(tasa_ataque, 2),
+        pacientes_cero=sim['pacientes_cero'],
+        infectados_finales_ids=infectados_finales,
+        curva_crecimiento=curva,
+        severidad=severidad
     )

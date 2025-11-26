@@ -56,6 +56,15 @@ class BridgeNode(BaseModel):
     interpretacion: str
 
 
+class CriticalNode(BaseModel):
+    """Nodo crítico en el MST (vulnerable o bridge)."""
+    estudiante_id: str
+    tipo: str  # 'vulnerable' or 'bridge'
+    grado: int
+    betweenness: float
+    interpretacion: str
+
+
 class MTCInfo(BaseModel):
     """Información detallada del análisis MTC."""
     mtc_id: str
@@ -72,6 +81,7 @@ class MTCInfo(BaseModel):
     # Información crítica para epidemiología
     aristas_criticas: List[CriticalEdge]
     nodos_puente: List[BridgeNode]
+    nodos_criticos: List[CriticalNode]  # NEW: Unified critical nodes list
     
     # Interpretación contextual
     interpretacion: str
@@ -166,7 +176,7 @@ async def analyze_mtc(weight_mode: str = "inverse", dia: str = "Lunes"):
         betweenness = nx.betweenness_centrality(mst_graph)
         degree = dict(mst_graph.degree())
         
-        # Top 10 nodos puente
+        # Top 10 nodos puente (legacy compatibility)
         bridge_nodes = []
         sorted_nodes = sorted(betweenness.items(), key=lambda x: x[1], reverse=True)[:10]
         for node_id, bc in sorted_nodes:
@@ -179,6 +189,19 @@ async def analyze_mtc(weight_mode: str = "inverse", dia: str = "Lunes"):
                     betweenness=round(bc, 4),
                     interpretacion=interpretacion
                 ))
+        
+        # NEW: Get critical nodes from analyzer (vulnerable + bridge classification)
+        critical_nodes_data = mst_data.get('critical_nodes', [])
+        critical_nodes = [
+            CriticalNode(
+                estudiante_id=node['estudiante_id'],
+                tipo=node['tipo'],
+                grado=node['grado'],
+                betweenness=round(node['betweenness'], 4),
+                interpretacion=node['interpretacion']
+            )
+            for node in critical_nodes_data
+        ]
         
         # Generar interpretación contextual
         num_nodos = mst_graph.number_of_nodes()
@@ -202,6 +225,7 @@ async def analyze_mtc(weight_mode: str = "inverse", dia: str = "Lunes"):
             num_componentes=mst_data['num_componentes'],
             aristas_criticas=critical_edges,
             nodos_puente=bridge_nodes,
+            nodos_criticos=critical_nodes,  # NEW
             interpretacion=interpretacion
         )
     

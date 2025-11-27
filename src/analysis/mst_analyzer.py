@@ -1,5 +1,6 @@
 """Analizador de Minimum Spanning Tree (MST) para grafos de contacto."""
 import networkx as nx
+import numpy as np
 from typing import Dict, Any, List, Tuple
 from .base import GraphAnalyzer
 
@@ -48,6 +49,7 @@ class MSTAnalyzer(GraphAnalyzer):
             'total_weight': self._calculate_total_weight(mst),
             'avg_weight': self._calculate_avg_weight(mst),
             'critical_edges': self._find_critical_edges(mst),
+            'critical_nodes': self._classify_critical_nodes(mst),  # NEW
             'reduction_ratio': self._calculate_reduction_ratio(graph, mst)
         }
     
@@ -107,6 +109,75 @@ class MSTAnalyzer(GraphAnalyzer):
         if original.number_of_edges() == 0:
             return 0.0
         return 1.0 - (mst.number_of_edges() / original.number_of_edges())
+    
+    def _classify_critical_nodes(self, mst: nx.Graph) -> List[Dict[str, Any]]:
+        """
+        Clasifica nodos críticos en el MST.
+        
+        - Vulnerable: Alto grado (>= mean + std) pero baja intermediación (<= median)
+        - Bridge: Alta intermediación (>= mean + std)
+        
+        Returns:
+            List of dicts with node_id, tipo, grado, betweenness, interpretacion
+        """
+        if mst.number_of_nodes() < 2:
+            return []
+        
+        # Calcular métricas
+        degree_dict = dict(mst.degree())
+        betweenness_dict = nx.betweenness_centrality(mst)
+        
+        # Convertir a arrays para estadísticas
+        degrees = np.array(list(degree_dict.values()))
+        betweenness = np.array(list(betweenness_dict.values()))
+        
+        # Umbrales
+        degree_mean = np.mean(degrees)
+        degree_std = np.std(degrees)
+        degree_threshold = degree_mean + degree_std
+        
+        betweenness_mean = np.mean(betweenness)
+        betweenness_std = np.std(betweenness)
+        betweenness_threshold = betweenness_mean + betweenness_std
+        betweenness_median = np.median(betweenness)
+        
+        critical_nodes = []
+        
+        for node_id in mst.nodes():
+            deg = degree_dict[node_id]
+            bc = betweenness_dict[node_id]
+            
+            # Clasificar
+            if bc >= betweenness_threshold:
+                # Bridge: alta intermediación
+                tipo = "bridge"
+                if bc > betweenness_mean + 2 * betweenness_std:
+                    interpretacion = "Super-conector crítico - conecta múltiples grupos"
+                else:
+                    interpretacion = "Conector importante - enlace entre grupos"
+            elif deg >= degree_threshold and bc <= betweenness_median:
+                # Vulnerable: alto grado pero baja intermediación
+                tipo = "vulnerable"
+                if deg > degree_mean + 2 * degree_std:
+                    interpretacion = "Nodo muy vulnerable - muchas conexiones directas"
+                else:
+                    interpretacion = "Nodo vulnerable - alto contacto local"
+            else:
+                # No es crítico
+                continue
+            
+            critical_nodes.append({
+                'estudiante_id': str(node_id),
+                'tipo': tipo,
+                'grado': int(deg),
+                'betweenness': float(bc),
+                'interpretacion': interpretacion
+            })
+        
+        # Ordenar por betweenness descendente
+        critical_nodes.sort(key=lambda x: x['betweenness'], reverse=True)
+        
+        return critical_nodes
     
     def print_results(self, results: Dict[str, Any]):
         """Imprime resultados del análisis MST."""

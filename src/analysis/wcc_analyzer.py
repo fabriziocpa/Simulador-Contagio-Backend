@@ -21,7 +21,7 @@ class WCCAnalyzer(GraphAnalyzer):
             'num_componentes': len(componentes),
             'tamanos': sorted([len(c) for c in componentes], reverse=True),
             'componente_gigante': len(max(componentes, key=len)) if componentes else 0,
-            'componentes': sorted(componentes, key=len, reverse=True)[:5]
+            'componentes': sorted(componentes, key=len, reverse=True)  # All components
         }
         
         if estudiantes is not None:
@@ -81,6 +81,7 @@ class WCCAnalyzer(GraphAnalyzer):
             'tamano': len(nodos),
             'carreras': carreras,
             'anios': anios,
+            'miembros': [str(nid) for nid in nodos],  # NEW: All member IDs as strings
             'super_spreaders': [
                 {
                     'id': pid,
